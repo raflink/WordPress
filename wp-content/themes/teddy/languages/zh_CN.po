@@ -1,0 +1,1813 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Teddy wp theme 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-20 15:26+0800\n"
+"PO-Revision-Date: 2013-04-22 14:04+0800\n"
+"Last-Translator: fanpeng <fanpengbj@gmail.com>\n"
+"Language-Team: bwsm <uiueux@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Users\\Administrator\\Desktop\\teddy - lang\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Oops..."
+msgstr "非常抱歉..."
+
+#: 404.php:7
+msgid "The page you were looing for is nolonger online or has been moved!"
+msgstr "此页可能已经被删除！"
+
+#: archive.php:10
+msgid "Category: "
+msgstr "类别："
+
+#: archive.php:15 archive.php:18 archive.php:21
+#, php-format
+msgid "Archives: %s"
+msgstr "归档：%s"
+
+#: archive.php:24
+msgid "Archives"
+msgstr "归档"
+
+#: comments.php:15
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章是加密的，请输入密码"
+
+#: comments.php:31
+msgid "0 COMMENTS"
+msgstr "无留言"
+
+#: comments.php:31
+msgid "1 COMMENT"
+msgstr "1个留言"
+
+#: comments.php:31
+msgid "% COMMENTS"
+msgstr "% 个留言"
+
+#: comments.php:80
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out&raquo;</a>"
+msgstr ""
+"登录用户 <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this "
+"account\">退出&raquo;</a>"
+
+#: comments.php:81
+msgid "LEAVE A REPLY"
+msgstr "请发表评论"
+
+#: comments.php:82
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "回复 %s 的评论"
+
+#: comments.php:83
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#: comments.php:84
+msgid "SEND"
+msgstr "提交"
+
+#: comments.php:86
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "请您<a href=\"%s\">登录</a>后评论"
+
+#: functions.php:77
+#, php-format
+msgid "Page %s"
+msgstr "页面 %s"
+
+#: functions.php:174
+msgid "Posted by "
+msgstr "作者："
+
+#: functions.php:184
+msgid "Tags: "
+msgstr "标签："
+
+#: functions.php:221
+msgid "default"
+msgstr "默认"
+
+#: functions.php:222
+msgid "sidebar_1"
+msgstr "侧边栏_1"
+
+#: functions.php:223
+msgid "sidebar_2"
+msgstr "侧边栏_2"
+
+#: functions.php:224
+msgid "sidebar_3"
+msgstr "侧边栏_3"
+
+#: functions.php:225
+msgid "sidebar_4"
+msgstr "侧边栏_4"
+
+#: functions.php:226
+msgid "sidebar_5"
+msgstr "侧边栏_5"
+
+#: functions.php:227
+msgid "sidebar_6"
+msgstr "侧边栏_6"
+
+#: functions.php:228
+msgid "sidebar_7"
+msgstr "侧边栏_8"
+
+#: functions.php:229
+msgid "sidebar_8"
+msgstr "侧边栏_8"
+
+#: functions.php:230
+msgid "sidebar_9"
+msgstr "侧边栏_9"
+
+#: functions.php:231
+msgid "sidebar_10"
+msgstr "侧边栏_10"
+
+#: functions.php:249
+msgid "Teddy Footer"
+msgstr "底部"
+
+#: functions.php:287
+msgid "PREVIOUS"
+msgstr "上一篇"
+
+#: functions.php:296
+msgid "NEXT"
+msgstr "下一篇"
+
+#: functions.php:469
+msgid " ago"
+msgstr "之前"
+
+#: functions.php:471
+msgid "Reply"
+msgstr "回复"
+
+#: functions.php:475
+msgid "Your comment is awaiting moderation"
+msgstr "您的留言已经进入审核流程"
+
+#: header.php:106 header.php:109
+msgid "Search"
+msgstr "搜素"
+
+#: mod-audio.php:18
+msgid "Artist: "
+msgstr "作者："
+
+#: options.php:26 functions/shortcodeui/config.php:481
+msgid "Heart"
+msgstr "心"
+
+#: options.php:30
+msgid "One"
+msgstr "一"
+
+#: options.php:31
+msgid "Two"
+msgstr "二"
+
+#: options.php:32
+msgid "Three"
+msgstr "三"
+
+#: options.php:33
+msgid "Four"
+msgstr "四"
+
+#: options.php:34
+msgid "Five"
+msgstr "五"
+
+#: options.php:39
+msgid "French Toast"
+msgstr ""
+
+#: options.php:40
+msgid "Pancake"
+msgstr ""
+
+#: options.php:41
+msgid "Omelette"
+msgstr ""
+
+#: options.php:42
+msgid "Crepe"
+msgstr ""
+
+#: options.php:43
+msgid "Waffle"
+msgstr ""
+
+#: options.php:378 options.php:610 options.php:885
+msgid "General"
+msgstr ""
+
+#: options.php:383 options.php:643
+msgid "Header"
+msgstr ""
+
+#: options.php:386
+msgid "Custom Logo"
+msgstr ""
+
+#: options.php:387
+msgid ""
+"Upload a logo for your theme, or specify the image address of your online "
+"logo. "
+msgstr ""
+
+#: options.php:391
+msgid "Custom Retina Logo"
+msgstr ""
+
+#: options.php:392
+msgid ""
+"It's optional. The retina logo's width and height should be double of normal "
+"logo's . "
+msgstr ""
+
+#: options.php:396
+msgid "Custom Logo Width"
+msgstr ""
+
+#: options.php:397
+msgid "It's optional,it's usually used for retina logo, e.g. 142"
+msgstr ""
+
+#: options.php:403
+msgid "Enable Plain Text Logo"
+msgstr ""
+
+#: options.php:409
+msgid "Enable Search Bar"
+msgstr ""
+
+#: options.php:415
+msgid "Enable Top Bar Fixed"
+msgstr ""
+
+#: options.php:421
+msgid "LightBox Skin"
+msgstr ""
+
+#: options.php:430 options.php:812 options.php:1001
+msgid "Footer"
+msgstr ""
+
+#: options.php:445
+msgid "Copyright Information"
+msgstr ""
+
+#: options.php:453 options.php:713 options.php:925
+#: admin/functions/functions-page-attributes.php:7
+msgid "List Page"
+msgstr ""
+
+#: options.php:456
+msgid "The Pagination Button (Twitter Style) Text"
+msgstr ""
+
+#: options.php:459 page.php:53
+msgid "Load more"
+msgstr ""
+
+#: options.php:463
+msgid "Loading Image for List"
+msgstr ""
+
+#: options.php:464
+msgid "Recommended image GIF format"
+msgstr ""
+
+#: options.php:469
+msgid "System"
+msgstr ""
+
+#: options.php:472 functions/include_custom_js.php:75
+#: functions/include_custom_js.php:113
+msgid "Email"
+msgstr ""
+
+#: options.php:473
+msgid "Please enter a email that recive the shortcode contact form"
+msgstr ""
+
+#: options.php:479
+msgid "Track Code"
+msgstr ""
+
+#: options.php:485
+msgid "Custom Favicon"
+msgstr ""
+
+#: options.php:486
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr ""
+
+#: options.php:490
+msgid "Custom Mobile Bookmark Icon"
+msgstr ""
+
+#: options.php:491
+msgid ""
+"This icon is used by Android (v2.1+) and iPhones to display home screen "
+"bookmarks. Recommended image size 129 x 129, saved in PNG format"
+msgstr ""
+
+#: options.php:496
+msgid "Custom Css"
+msgstr ""
+
+#: options.php:505
+msgid "Social Networks"
+msgstr ""
+
+#: options.php:509
+msgid "Social icons in Top Bar."
+msgstr ""
+
+#: options.php:512
+msgid "Enable Social Icons"
+msgstr ""
+
+#: options.php:518
+msgid "Your Facebook Link"
+msgstr ""
+
+#: options.php:524
+msgid "Your Twitter Link"
+msgstr ""
+
+#: options.php:530
+msgid "Your Google+ Link"
+msgstr ""
+
+#: options.php:536
+msgid "Your Pinterest Link"
+msgstr ""
+
+#: options.php:542
+msgid "Your Instagram Link"
+msgstr ""
+
+#: options.php:548
+msgid "Your Tumblr Link"
+msgstr ""
+
+#: options.php:554
+msgid "Your Youtube Link"
+msgstr ""
+
+#: options.php:560
+msgid "Your Flickr Link"
+msgstr ""
+
+#: options.php:566
+msgid "Your Vimeo Link"
+msgstr ""
+
+#: options.php:572
+msgid "Your LinkedIn Link"
+msgstr ""
+
+#: options.php:578
+msgid "Your Dribbble Link"
+msgstr ""
+
+#: options.php:584
+msgid "Your Forst Link"
+msgstr ""
+
+#: options.php:590
+msgid "Your Github Link"
+msgstr ""
+
+#: options.php:596
+msgid "Your Rss Link"
+msgstr ""
+
+#: options.php:606
+msgid "Color Settings"
+msgstr ""
+
+#: options.php:613
+msgid "Skin"
+msgstr ""
+
+#: options.php:614
+msgid "If you select the skin, all color value will be changed"
+msgstr ""
+
+#: options.php:621
+msgid "Custom Background"
+msgstr ""
+
+#: options.php:627
+msgid "Hyperlinks Color"
+msgstr ""
+
+#: options.php:633
+msgid "Selected Text BG Color"
+msgstr ""
+
+#: options.php:646
+msgid "Header BG Color"
+msgstr ""
+
+#: options.php:652
+msgid "Header BG Alpha"
+msgstr ""
+
+#: options.php:660
+msgid "Search Border Color"
+msgstr ""
+
+#: options.php:666
+msgid "Search Text Color"
+msgstr ""
+
+#: options.php:673 options.php:904
+msgid "Logo"
+msgstr ""
+
+#: options.php:676
+msgid "Logo Text Color"
+msgstr ""
+
+#: options.php:682
+msgid "Logo BG Color"
+msgstr ""
+
+#: options.php:689
+msgid "Menu"
+msgstr ""
+
+#: options.php:692
+msgid "Menu Text Color"
+msgstr ""
+
+#: options.php:698
+msgid "Menu Current Item Color"
+msgstr ""
+
+#: options.php:704
+msgid "Sub Menu Mouseover BG Color"
+msgstr ""
+
+#: options.php:718 options.php:760
+msgid "Title Color"
+msgstr ""
+
+#: options.php:724
+msgid "Descriptions Font Color"
+msgstr ""
+
+#: options.php:730
+msgid "Image Mouseover BG Color"
+msgstr ""
+
+#: options.php:736
+msgid "Category/Archive/Search Page Title Color"
+msgstr ""
+
+#: options.php:746 options.php:952
+msgid "Content Page"
+msgstr ""
+
+#: options.php:749
+msgid "Content BG Color"
+msgstr ""
+
+#: options.php:755
+msgid "Sidebar BG Color"
+msgstr ""
+
+#: options.php:766
+msgid "Content Text Color"
+msgstr ""
+
+#: options.php:772
+msgid "Auxiliary Content Color"
+msgstr ""
+
+#: options.php:778
+msgid "Comment Title Font Color"
+msgstr ""
+
+#: options.php:784
+msgid "Commnet Form Skin"
+msgstr ""
+
+#: options.php:792
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: options.php:797
+msgid "Sidebar Widget Content Color"
+msgstr ""
+
+#: options.php:802
+msgid "Sidebar Widget Contact Form Skin"
+msgstr ""
+
+#: options.php:815
+msgid "Footer BG Color"
+msgstr ""
+
+#: options.php:820
+msgid "Footer BG Alpha"
+msgstr ""
+
+#: options.php:828
+msgid "Copyright Text Color"
+msgstr ""
+
+#: options.php:833
+msgid "Copyright Text Alpha"
+msgstr ""
+
+#: options.php:841
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: options.php:846
+msgid "Footer Widget Title Alpha"
+msgstr ""
+
+#: options.php:854
+msgid "Footer Widget Content Color"
+msgstr ""
+
+#: options.php:859
+msgid "Footer Widget Content Alpha"
+msgstr ""
+
+#: options.php:867
+msgid "Contact Form Widget Skin"
+msgstr ""
+
+#: options.php:880
+msgid "Font settings"
+msgstr ""
+
+#: options.php:888
+msgid "Main Font"
+msgstr ""
+
+#: options.php:889
+msgid "For most content text."
+msgstr ""
+
+#: options.php:895
+msgid "Heading Font"
+msgstr ""
+
+#: options.php:907
+msgid "Logo Font"
+msgstr ""
+
+#: options.php:915
+msgid "Menu Font"
+msgstr ""
+
+#: options.php:928
+msgid "Title Font"
+msgstr ""
+
+#: options.php:935
+msgid "Title Font(Fullwidth layout)"
+msgstr ""
+
+#: options.php:942 options.php:969
+msgid "Content Font"
+msgstr ""
+
+#: options.php:955
+msgid "Title Font (Standard, Video)"
+msgstr ""
+
+#: options.php:962
+msgid "Title Font (Gallery)"
+msgstr ""
+
+#: options.php:976
+msgid "Auxiliary Font"
+msgstr ""
+
+#: options.php:985
+msgid "Sidebar Widget Title Font"
+msgstr ""
+
+#: options.php:992
+msgid "Sidebar Widget Content Font"
+msgstr ""
+
+#: options.php:1004
+msgid "Copyright Font"
+msgstr ""
+
+#: options.php:1011
+msgid "Widget Title"
+msgstr ""
+
+#: options.php:1018
+msgid "Widget Content"
+msgstr ""
+
+#: options.php:1032
+msgid "Import/Export"
+msgstr ""
+
+#: options.php:1035
+msgid "Import option"
+msgstr ""
+
+#: options.php:1037
+msgid "Import from text or backup file url"
+msgstr ""
+
+#: options.php:1038
+msgid ""
+"Paste your backup file text above or input backup file url and hit Import to "
+"restore your sites options."
+msgstr ""
+
+#: options.php:1042
+msgid "Export option"
+msgstr ""
+
+#: options.php:1044
+msgid "Export to text or download backup file"
+msgstr ""
+
+#: options.php:1045
+msgid ""
+"Export to text box or click download button to a file.<br>NOTE: Only Export "
+"the theme option data"
+msgstr ""
+
+#: page.php:70 page.php:144
+msgid "Loading..."
+msgstr ""
+
+#: page.php:71
+msgid "No posts"
+msgstr "木有文章"
+
+#: search.php:7
+#, php-format
+msgid "Search Results for %s"
+msgstr "关键词 %s 搜素结果"
+
+#: searchform.php:2
+msgid "Click here to search"
+msgstr "请出入关键词后按回车"
+
+#: admin/index.php:21
+msgid "All Sliders"
+msgstr ""
+
+#: admin/index.php:22 admin/functions/functions-bgslider-list.php:10
+#: functions/shortcodeui/config.php:405
+msgid "Add New"
+msgstr ""
+
+#: admin/index.php:150 admin/functions/functions-bgslider-add.php:101
+#: admin/functions/functions-bgslider-edit.php:89
+msgid "Select Images"
+msgstr ""
+
+#: admin/index.php:159
+msgid "Select Audio Files"
+msgstr ""
+
+#: admin/index.php:168
+msgid "Select Video"
+msgstr ""
+
+#: admin/index.php:177
+msgid "Post Options"
+msgstr ""
+
+#: admin/index.php:186
+msgid "Page Attributes"
+msgstr ""
+
+#: admin/index.php:195
+msgid "Page Options"
+msgstr ""
+
+#: admin/functions/functions-audio.php:3
+#: admin/functions/functions-standard.php:4
+msgid "Layout"
+msgstr ""
+
+#: admin/functions/functions-audio.php:26
+msgid "Artist"
+msgstr ""
+
+#: admin/functions/functions-audio.php:45
+#: admin/functions/functions-audio.php:65
+msgid "MP3 Title"
+msgstr ""
+
+#: admin/functions/functions-audio.php:50
+#: admin/functions/functions-audio.php:70
+msgid "URL"
+msgstr ""
+
+#: admin/functions/functions-audio.php:88
+msgid "Code for WP"
+msgstr ""
+
+#: admin/functions/functions-audio.php:91
+msgid " *Format"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:81
+msgid "Add new BgSlider"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:82
+#: admin/functions/functions-bgslider-edit.php:70
+msgid "Back to the list"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:92
+#: admin/functions/functions-bgslider-edit.php:80
+msgid "Type your slider name here"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:98
+#: admin/functions/functions-bgslider-edit.php:86
+msgid "Slider Settings"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:105
+#: admin/functions/functions-bgslider-add.php:132
+#: admin/functions/functions-bgslider-edit.php:95
+#: admin/functions/functions-bgslider-edit.php:108
+#: admin/functions/functions-bgslider-edit.php:140
+msgid "Upload Image"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:160
+#: admin/functions/functions-bgslider-edit.php:168
+msgid "Modes"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:164
+#: admin/functions/functions-bgslider-edit.php:172
+#: admin/functions/functions-bgslider-edit.php:178
+msgid "Pagination"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:165
+#: admin/functions/functions-bgslider-edit.php:173
+#: admin/functions/functions-bgslider-edit.php:178
+msgid "Timer"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:166
+#: admin/functions/functions-bgslider-edit.php:174
+#: admin/functions/functions-bgslider-edit.php:178
+msgid "Controls"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:167
+#: admin/functions/functions-bgslider-edit.php:175
+#: admin/functions/functions-bgslider-edit.php:178
+msgid "Page Scroll"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:168
+#: admin/functions/functions-bgslider-edit.php:176
+#: admin/functions/functions-bgslider-edit.php:178
+msgid "Thumbnails"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:175
+#: admin/functions/functions-bgslider-edit.php:184
+msgid "Effect"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:179
+#: admin/functions/functions-bgslider-add.php:184
+#: admin/functions/functions-bgslider-edit.php:188
+#: admin/functions/functions-bgslider-edit.php:193
+msgid "Fade"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:180
+#: admin/functions/functions-bgslider-add.php:184
+#: admin/functions/functions-bgslider-edit.php:189
+#: admin/functions/functions-bgslider-edit.php:193
+msgid "Slide"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:181
+#: admin/functions/functions-bgslider-add.php:184
+#: admin/functions/functions-bgslider-edit.php:190
+#: admin/functions/functions-bgslider-edit.php:193
+msgid "CrossFade"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:182
+#: admin/functions/functions-bgslider-add.php:184
+#: admin/functions/functions-bgslider-edit.php:191
+#: admin/functions/functions-bgslider-edit.php:193
+msgid "SlideFade"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:190
+#: admin/functions/functions-bgslider-edit.php:199
+msgid "Speed"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:194
+#: admin/functions/functions-bgslider-add.php:197
+#: admin/functions/functions-bgslider-edit.php:203
+#: admin/functions/functions-bgslider-edit.php:206
+msgid "Slow"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:195
+#: admin/functions/functions-bgslider-add.php:197
+#: admin/functions/functions-bgslider-edit.php:204
+#: admin/functions/functions-bgslider-edit.php:206
+msgid "Fast"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:205
+#: admin/functions/functions-bgslider-edit.php:214
+msgid "Set as Default"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:209
+#: admin/functions/functions-bgslider-add.php:212
+#: admin/functions/functions-bgslider-edit.php:218
+#: admin/functions/functions-bgslider-edit.php:221
+#: admin/functions/functions-page-options.php:199
+msgid "NO"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:210
+#: admin/functions/functions-bgslider-add.php:212
+#: admin/functions/functions-bgslider-edit.php:219
+#: admin/functions/functions-bgslider-edit.php:221
+#: admin/functions/functions-page-options.php:200
+msgid "YES"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:224
+#: admin/functions/functions-bgslider-edit.php:233
+msgid "Publish"
+msgstr ""
+
+#: admin/functions/functions-bgslider-add.php:226
+#: admin/functions/functions-bgslider-edit.php:235
+msgid "Save changes"
+msgstr ""
+
+#: admin/functions/functions-bgslider-edit.php:69
+msgid "Edit this BgSlider"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:9
+msgid "BgSlider sliders"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:18
+#: functions/include_custom_js.php:75 functions/include_custom_js.php:113
+#: functions/widget-recent-tweets.php:256
+msgid "Name"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:19
+msgid "Actions"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:20
+msgid "Created"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:21
+#: admin/functions/functions-page-options.php:65
+msgid "Modified"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:32
+msgid "Edit"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:33
+msgid "Remove"
+msgstr ""
+
+#: admin/functions/functions-bgslider-list.php:42
+msgid "You didn't create a slider yet."
+msgstr ""
+
+#: admin/functions/functions-page-attributes.php:3
+msgid "Template"
+msgstr ""
+
+#: admin/functions/functions-page-attributes.php:8
+msgid "Static Page"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:3
+msgid "Category"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:8
+msgid "Select a category"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:26
+msgid "Quantity/Page"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:35
+msgid "Pagenation Type"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:39
+#: admin/functions/functions-page-options.php:61
+#: admin/functions/functions-page-options.php:140
+#: admin/functions/functions-standard.php:113
+msgid "Please select"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:40
+msgid "Number"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:41
+msgid "Twitter Style"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:43
+#: admin/functions/functions-page-options.php:68
+msgid "None"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:57
+msgid "Order Post by"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:62
+#: functions/widget-recent-comments.php:97
+#: functions/widget-recent-tweets.php:247 functions/shortcodeui/config.php:232
+msgid "Title"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:63
+#: admin/functions/functions-standard.php:159
+msgid "Date"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:64
+msgid "ID"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:66
+#: admin/functions/functions-standard.php:158
+msgid "Author"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:67
+msgid "Comment count"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:71
+msgid "Ascending"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:72
+msgid "Descending"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:113
+#: admin/functions/functions-standard.php:86
+msgid "Sidebar"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:176
+msgid "Background Slider"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:180
+msgid "NONE"
+msgstr ""
+
+#: admin/functions/functions-page-options.php:195
+msgid "Show Top Spacer"
+msgstr ""
+
+#: admin/functions/functions-standard.php:2
+msgid "BLOCK IN LIST"
+msgstr ""
+
+#: admin/functions/functions-standard.php:9
+msgid "Standard"
+msgstr ""
+
+#: admin/functions/functions-standard.php:14
+msgid "Blog"
+msgstr ""
+
+#: admin/functions/functions-standard.php:19
+msgid "A"
+msgstr ""
+
+#: admin/functions/functions-standard.php:24
+msgid "B"
+msgstr ""
+
+#: admin/functions/functions-standard.php:29
+msgid "C"
+msgstr ""
+
+#: admin/functions/functions-standard.php:34
+msgid "D"
+msgstr ""
+
+#: admin/functions/functions-standard.php:39
+msgid "E"
+msgstr ""
+
+#: admin/functions/functions-standard.php:44
+msgid "F"
+msgstr ""
+
+#: admin/functions/functions-standard.php:58
+#: functions/shortcodeui/config.php:20 functions/shortcodeui/config.php:199
+#: functions/shortcodeui/config.php:347
+msgid "Color"
+msgstr ""
+
+#: admin/functions/functions-standard.php:84
+msgid "POST PAGE"
+msgstr ""
+
+#: admin/functions/functions-standard.php:134
+msgid "List Type"
+msgstr ""
+
+#: admin/functions/functions-standard.php:138
+msgid "Verticle List"
+msgstr ""
+
+#: admin/functions/functions-standard.php:139
+msgid "Slider"
+msgstr ""
+
+#: admin/functions/functions-standard.php:140
+msgid "Masonry"
+msgstr ""
+
+#: admin/functions/functions-standard.php:154
+msgid "Show"
+msgstr ""
+
+#: admin/functions/functions-standard.php:157
+msgid "Top Image(Featured Images)"
+msgstr ""
+
+#: admin/functions/functions-standard.php:160
+msgid "Tag"
+msgstr "标签"
+
+#: admin/functions/functions-standard.php:161
+msgid "Share"
+msgstr "分享"
+
+#: admin/functions/functions-standard.php:162
+msgid "Comments"
+msgstr "评论"
+
+#: admin/functions/functions-video.php:4
+msgid "Embeded Code"
+msgstr "内嵌代码"
+
+#: functions/include_custom_js.php:75 functions/include_custom_js.php:76
+#: functions/include_custom_js.php:113 functions/include_custom_js.php:114
+msgid "Required"
+msgstr "必须的"
+
+#: functions/include_custom_js.php:75 functions/include_custom_js.php:81
+#: functions/include_custom_js.php:113 functions/include_custom_js.php:119
+msgid "Invalid email"
+msgstr "邮件地址格式有误"
+
+#: functions/include_custom_js.php:90 functions/include_custom_js.php:128
+msgid "Sending"
+msgstr "发送中"
+
+#: functions/include_custom_js.php:95 functions/include_custom_js.php:133
+msgid "Thanks, your email was successfully sent"
+msgstr "非常感谢！您的邮件发生成功。"
+
+#: functions/include_social_icons.php:4
+msgid "Visit Facebook page"
+msgstr ""
+
+#: functions/include_social_icons.php:5
+msgid "Visit Twitter page"
+msgstr ""
+
+#: functions/include_social_icons.php:6
+msgid "Visit Google Plus page"
+msgstr ""
+
+#: functions/include_social_icons.php:7
+msgid "Visit Pinterest page"
+msgstr ""
+
+#: functions/include_social_icons.php:8
+msgid "Visit Instagram page"
+msgstr ""
+
+#: functions/include_social_icons.php:9
+msgid "Visit Tumblr page"
+msgstr ""
+
+#: functions/include_social_icons.php:10
+msgid "Visit Youtube page"
+msgstr ""
+
+#: functions/include_social_icons.php:11
+msgid "Visit Flickr page"
+msgstr ""
+
+#: functions/include_social_icons.php:12
+msgid "Visit Vimeo page"
+msgstr ""
+
+#: functions/include_social_icons.php:13
+msgid "Visit LinkedIn page"
+msgstr ""
+
+#: functions/include_social_icons.php:14
+msgid "Visit Dribbble page"
+msgstr ""
+
+#: functions/include_social_icons.php:15
+msgid "Visit Forst page"
+msgstr ""
+
+#: functions/include_social_icons.php:16
+msgid "Visit Github page"
+msgstr ""
+
+#: functions/include_social_icons.php:17
+msgid "Rss"
+msgstr ""
+
+#: functions/widget-contact-form.php:12
+msgid "Shows Contact Form in your blog"
+msgstr ""
+
+#: functions/widget-contact-form.php:14
+msgid "Contact Form"
+msgstr ""
+
+#: functions/widget-contact-form.php:70
+msgid "Please don't set multiple Contact Form widget in same one page"
+msgstr ""
+
+#: functions/widget-recent-comments.php:100
+msgid "How many comments to show"
+msgstr ""
+
+#: functions/widget-recent-comments.php:102
+msgid "At most 15"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:15
+msgid "To show your latest tweets"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:119
+msgid "minutes ago"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:123
+msgid "hours ago"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:127
+msgid "days ago"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:129
+msgid "about"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:219
+msgid "loading tweets"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:260
+msgid "Your Twitter name"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:266
+msgid "Numbers"
+msgstr ""
+
+#: functions/widget-recent-tweets.php:277
+msgid "How many tweets to show?"
+msgstr ""
+
+#: functions/option/options-framework.php:210
+#: functions/option/options-framework.php:416
+msgid "Theme Options"
+msgstr ""
+
+#: functions/option/options-framework.php:268
+msgid "Teddy Theme Options"
+msgstr ""
+
+#: functions/option/options-framework.php:279
+msgid "Theme Online Documentation"
+msgstr ""
+
+#: functions/option/options-framework.php:287
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: functions/option/options-framework.php:322
+msgid "Default options restored."
+msgstr ""
+
+#: functions/option/options-framework.php:365
+msgid "Options saved."
+msgstr ""
+
+#: functions/option/options-interface.php:405
+msgid "Export"
+msgstr ""
+
+#: functions/option/options-interface.php:406
+msgid "Import"
+msgstr ""
+
+#: functions/option/options-interface.php:407
+msgid "Download"
+msgstr ""
+
+#: functions/option/options-interface.php:411
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+
+#: functions/option/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: functions/option/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr ""
+
+#: functions/option/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr ""
+
+#: functions/option/options-medialibrary-uploader.php:289
+msgid "Gallery"
+msgstr ""
+
+#: functions/option/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr ""
+
+#: functions/option/options-sanitize.php:261
+msgid "No Repeat"
+msgstr ""
+
+#: functions/option/options-sanitize.php:262
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: functions/option/options-sanitize.php:263
+msgid "Repeat Vertically"
+msgstr ""
+
+#: functions/option/options-sanitize.php:264
+msgid "Repeat All"
+msgstr ""
+
+#: functions/option/options-sanitize.php:277
+msgid "Top Left"
+msgstr ""
+
+#: functions/option/options-sanitize.php:278
+msgid "Top Center"
+msgstr ""
+
+#: functions/option/options-sanitize.php:279
+msgid "Top Right"
+msgstr ""
+
+#: functions/option/options-sanitize.php:280
+msgid "Middle Left"
+msgstr ""
+
+#: functions/option/options-sanitize.php:281
+msgid "Middle Center"
+msgstr ""
+
+#: functions/option/options-sanitize.php:282
+msgid "Middle Right"
+msgstr ""
+
+#: functions/option/options-sanitize.php:283
+msgid "Bottom Left"
+msgstr ""
+
+#: functions/option/options-sanitize.php:284
+msgid "Bottom Center"
+msgstr ""
+
+#: functions/option/options-sanitize.php:285
+msgid "Bottom Right"
+msgstr ""
+
+#: functions/option/options-sanitize.php:298
+msgid "Scroll Normally"
+msgstr ""
+
+#: functions/option/options-sanitize.php:299
+msgid "Fixed in Place"
+msgstr ""
+
+#: functions/option/options-sanitize.php:469
+msgid "Normal"
+msgstr ""
+
+#: functions/option/options-sanitize.php:470
+msgid "Italic"
+msgstr ""
+
+#: functions/option/options-sanitize.php:471
+msgid "Bold"
+msgstr ""
+
+#: functions/option/options-sanitize.php:472
+msgid "Bold Italic"
+msgstr ""
+
+#: functions/shortcodeui/config.php:9
+msgid "Text"
+msgstr ""
+
+#: functions/shortcodeui/config.php:10
+msgid "Add the button's text"
+msgstr ""
+
+#: functions/shortcodeui/config.php:15 functions/shortcodeui/config.php:185
+msgid "Link"
+msgstr ""
+
+#: functions/shortcodeui/config.php:16
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: functions/shortcodeui/config.php:21
+msgid "Select the button's colour"
+msgstr ""
+
+#: functions/shortcodeui/config.php:39
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:47
+msgid "Location<br>(Lat/Lng)"
+msgstr ""
+
+#: functions/shortcodeui/config.php:48
+msgid ""
+"Link to your map. Visit <a href=\"http://maps.google.com/\" target=\"_blank"
+"\">Google maps</a> find your address and then click \"Link\" button to "
+"obtain your map link.<br>You need to get your location Lat/Lng in this page"
+msgstr ""
+
+#: functions/shortcodeui/config.php:53 functions/shortcodeui/config.php:97
+#: functions/shortcodeui/config.php:211 functions/shortcodeui/config.php:271
+#: functions/shortcodeui/config.php:313 functions/shortcodeui/config.php:373
+#: functions/shortcodeui/config.php:512
+msgid "Width"
+msgstr ""
+
+#: functions/shortcodeui/config.php:54
+msgid "Add the Maps's width eg 90%"
+msgstr ""
+
+#: functions/shortcodeui/config.php:59 functions/shortcodeui/config.php:319
+msgid "Height"
+msgstr ""
+
+#: functions/shortcodeui/config.php:60
+msgid "Add the Maps's height eg 300px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:70
+msgid "Type"
+msgstr ""
+
+#: functions/shortcodeui/config.php:76
+msgid "Zoom"
+msgstr ""
+
+#: functions/shortcodeui/config.php:77
+msgid "eg 14"
+msgstr ""
+
+#: functions/shortcodeui/config.php:83
+msgid "Insert Google Maps Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:91
+msgid "Insert the url"
+msgstr ""
+
+#: functions/shortcodeui/config.php:92
+msgid ""
+"Support Youtube, Vimeo, Twitter ... <a href=\"http://codex.wordpress.org/"
+"Embeds\">more</a>"
+msgstr ""
+
+#: functions/shortcodeui/config.php:98
+msgid "Add the width eg 300, min width is 250"
+msgstr ""
+
+#: functions/shortcodeui/config.php:102
+msgid "Insert Embed Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:146
+msgid "Select icon"
+msgstr ""
+
+#: functions/shortcodeui/config.php:147
+msgid "Add the icon"
+msgstr ""
+
+#: functions/shortcodeui/config.php:152 functions/shortcodeui/config.php:191
+msgid "Insert Face Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:179
+msgid "Please select the type"
+msgstr ""
+
+#: functions/shortcodeui/config.php:186
+msgid "Please enter the url, e.g. http://www.facebook.com/your-facebook-name"
+msgstr ""
+
+#: functions/shortcodeui/config.php:200
+msgid "Select the Message box's colour"
+msgstr ""
+
+#: functions/shortcodeui/config.php:212
+msgid "Add the Message box's width eg 95%"
+msgstr ""
+
+#: functions/shortcodeui/config.php:217
+msgid "Message box's Text"
+msgstr ""
+
+#: functions/shortcodeui/config.php:218
+msgid "Add the Message box's text"
+msgstr ""
+
+#: functions/shortcodeui/config.php:223
+msgid "Insert Message box Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:233
+msgid "The shortcode only works in page"
+msgstr ""
+
+#: functions/shortcodeui/config.php:238
+msgid "Name Box"
+msgstr ""
+
+#: functions/shortcodeui/config.php:244
+msgid "Email Box"
+msgstr ""
+
+#: functions/shortcodeui/config.php:250
+msgid "Button"
+msgstr ""
+
+#: functions/shortcodeui/config.php:257
+msgid "Insert Contact Form Shortcode (The shortcode only works in page)"
+msgstr ""
+
+#: functions/shortcodeui/config.php:265 functions/shortcodeui/config.php:307
+msgid "Image URL"
+msgstr ""
+
+#: functions/shortcodeui/config.php:266 functions/shortcodeui/config.php:308
+msgid "Add the image's url"
+msgstr ""
+
+#: functions/shortcodeui/config.php:272
+msgid "Add the image's width eg 95%"
+msgstr ""
+
+#: functions/shortcodeui/config.php:276
+msgid "Border Style"
+msgstr ""
+
+#: functions/shortcodeui/config.php:277
+msgid "Select the border's style"
+msgstr ""
+
+#: functions/shortcodeui/config.php:287
+msgid "Image Name"
+msgstr ""
+
+#: functions/shortcodeui/config.php:288
+msgid "Add the image's name"
+msgstr ""
+
+#: functions/shortcodeui/config.php:293
+msgid "Image Link URL"
+msgstr ""
+
+#: functions/shortcodeui/config.php:294
+msgid "Add the image's link url, It's optional."
+msgstr ""
+
+#: functions/shortcodeui/config.php:299
+msgid "Insert Image Border Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:314
+msgid "Add the image's width eg 140"
+msgstr ""
+
+#: functions/shortcodeui/config.php:320
+msgid "Add the image's height eg 140"
+msgstr ""
+
+#: functions/shortcodeui/config.php:324
+msgid "Align"
+msgstr ""
+
+#: functions/shortcodeui/config.php:334
+msgid "Radius"
+msgstr ""
+
+#: functions/shortcodeui/config.php:335
+msgid "Add the image's radius eg 70"
+msgstr ""
+
+#: functions/shortcodeui/config.php:340
+msgid "Insert Image Round shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:348
+msgid "Select the Line's colour"
+msgstr ""
+
+#: functions/shortcodeui/config.php:362
+msgid "Style"
+msgstr ""
+
+#: functions/shortcodeui/config.php:363
+msgid "Select the Line's type"
+msgstr ""
+
+#: functions/shortcodeui/config.php:374
+msgid "Add the Line's width eg 95%"
+msgstr ""
+
+#: functions/shortcodeui/config.php:378
+msgid "Insert Line Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:387
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:392
+msgid "Toggle Content Title"
+msgstr ""
+
+#: functions/shortcodeui/config.php:393
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: functions/shortcodeui/config.php:399
+msgid "Toggle Content"
+msgstr ""
+
+#: functions/shortcodeui/config.php:400
+msgid "Add the toggle content."
+msgstr ""
+
+#: functions/shortcodeui/config.php:413
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:421
+msgid "Column Type"
+msgstr ""
+
+#: functions/shortcodeui/config.php:422
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: functions/shortcodeui/config.php:451
+msgid "Column Content"
+msgstr ""
+
+#: functions/shortcodeui/config.php:452
+msgid "Add the column content."
+msgstr ""
+
+#: functions/shortcodeui/config.php:456
+msgid "Add a new Column"
+msgstr ""
+
+#: functions/shortcodeui/config.php:463
+msgid "Insert Lists Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:471
+msgid "List ICON"
+msgstr ""
+
+#: functions/shortcodeui/config.php:474
+msgid "Location"
+msgstr ""
+
+#: functions/shortcodeui/config.php:475
+msgid "Phone"
+msgstr ""
+
+#: functions/shortcodeui/config.php:476
+msgid "Mail"
+msgstr ""
+
+#: functions/shortcodeui/config.php:477
+msgid "Dot"
+msgstr ""
+
+#: functions/shortcodeui/config.php:478
+msgid "Triangle"
+msgstr ""
+
+#: functions/shortcodeui/config.php:479
+msgid "Check"
+msgstr ""
+
+#: functions/shortcodeui/config.php:480
+msgid "Hollow Arrow"
+msgstr ""
+
+#: functions/shortcodeui/config.php:482
+msgid "Square"
+msgstr ""
+
+#: functions/shortcodeui/config.php:483
+msgid "Dash"
+msgstr ""
+
+#: functions/shortcodeui/config.php:484
+msgid "Big Dot"
+msgstr ""
+
+#: functions/shortcodeui/config.php:490
+msgid "List Content"
+msgstr ""
+
+#: functions/shortcodeui/config.php:495
+msgid "Add List"
+msgstr ""
+
+#: functions/shortcodeui/config.php:503
+msgid "Insert Fixed Columns Shortcode"
+msgstr ""
+
+#: functions/shortcodeui/config.php:513
+msgid "e.g. 300px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:518
+msgid "Margin Top"
+msgstr ""
+
+#: functions/shortcodeui/config.php:519
+msgid "Column spacing on the top, e.g. 20px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:524
+msgid "Margin Left"
+msgstr ""
+
+#: functions/shortcodeui/config.php:525
+msgid "Column spacing on the left, e.g. 20px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:530
+msgid "Margin Bottom"
+msgstr ""
+
+#: functions/shortcodeui/config.php:531
+msgid "Column spacing on the bottom, e.g. 20px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:536
+msgid "Margin Right"
+msgstr ""
+
+#: functions/shortcodeui/config.php:537
+msgid "Column spacing on the right, e.g. 20px"
+msgstr ""
+
+#: functions/shortcodeui/config.php:542
+msgid "Content"
+msgstr ""
+
+#: functions/shortcodeui/config.php:547
+msgid "Add Fixed Columns"
+msgstr ""
+
+#: js/comments-ajax.php:25 js/comments-ajax.php:38 js/comments-ajax.php:41
+msgid "Invalid comment status."
+msgstr "非法评论状态"
+
+#: js/comments-ajax.php:35
+msgid "Sorry, comments are closed for this item."
+msgstr "抱歉，此条评论被关闭"
+
+#: js/comments-ajax.php:44
+msgid "Password Protected"
+msgstr "密码保护"
+
+#: js/comments-ajax.php:71
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "抱歉，您必须登录后才能发布评论"
+
+#: js/comments-ajax.php:78
+msgid "Error: please fill the required fields (name, email)."
+msgstr "请填写姓名或邮件地址"
+
+#: js/comments-ajax.php:80
+msgid "Error: please enter a valid email address."
+msgstr "请输入格式争取的邮件地址"
+
+#: js/comments-ajax.php:84
+msgid "Error: please type a comment."
+msgstr "请输入评论信息"
+
+#: js/comments-ajax.php:98
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
+msgstr "失败"
+
+#: js/comments-ajax.php:107
+msgid "You are posting comments too quickly.  Slow down."
+msgstr "请不要频繁评论"
+
+#: js/comments-ajax.php:154
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 于 %2$s"
+
+#: js/comments-ajax.php:154
+msgid "(Edit)"
+msgstr "（编辑）"
+
+#: js/comments-ajax.php:157
+msgid "Your comment is awaiting moderation."
+msgstr "您的留言已经进入审核流程"

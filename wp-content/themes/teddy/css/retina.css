@@ -1,0 +1,121 @@
+/* 
+General
+*/
+.mobileMenu,.carousel-control,ul.gallery_meta>li:before,ul.post_meta>li:before,.toggle-title:before,.icon.mail,.icon.phone,.icon.location,.list_style:before,.footer_close,.footer_open,.tweet_list>li:before {
+background-repeat:no-repeat; background-image:url(../img/icon_retina.png);
+-webkit-background-size: 400px 200px;
+-moz-background-size: 400px 200px;
+-o-background-size: 400px 200px;
+-ms-background-size: 400px 200px;
+background-size: 400px 200px;}
+/* 
+header 
+*/
+.logo_normal{ display:none; }
+.logo_retina{ display:block; }
+.mobileMenu{ background-position:11px -33px; }
+/*
+Top Social icons
+*/
+a.social_active{ background-repeat:no-repeat;
+-webkit-background-size: 36px 72px;
+-moz-background-size: 36px 72px;
+-o-background-size: 36px 72px;
+-ms-background-size: 36px 72px;
+background-size: 36px 72px; }
+a.social_active span{ background-position: 0 -30px; background-repeat:no-repeat;
+-webkit-background-size: 36px 72px;
+-moz-background-size: 36px 72px;
+-o-background-size: 36px 72px;
+-ms-background-size: 36px 72px;
+background-size: 36px 72px; }
+#social_facebook{ background-image:url(../img/icon/retina/facebook.png);}
+#social_facebook span{ background-image:url(../img/icon/retina/facebook.png); }
+#social_twitter{ background-image:url(../img/icon/retina/twitter.png);}
+#social_twitter span{ background-image:url(../img/icon/retina/twitter.png); }
+#social_dribbble{ background-image:url(../img/icon/retina/dribbble.png); }
+#social_dribbble span{ background-image:url(../img/icon/retina/dribbble.png); }
+#social_flickr{ background-image:url(../img/icon/retina/flickr.png); }
+#social_flickr span{ background-image:url(../img/icon/retina/flickr.png);}
+#social_forst{ background-image:url(../img/icon/retina/forst.png);}
+#social_forst span{ background-image:url(../img/icon/retina/forst.png);}
+#social_github{ background-image:url(../img/icon/retina/github.png);}
+#social_github span{ background-image:url(../img/icon/retina/github.png);}
+#social_linkedin{ background-image:url(../img/icon/retina/linkedin.png);}
+#social_linkedin span{ background-image:url(../img/icon/retina/linkedin.png);}
+#social_pinterest{ background-image:url(../img/icon/retina/pinterest.png);}
+#social_pinterest span{ background-image:url(../img/icon/retina/pinterest.png);}
+#social_instagram{ background-image:url(../img/icon/retina/instagram.png);}
+#social_instagram span{ background-image:url(../img/icon/retina/instagram.png);}
+#social_rss{ background-image:url(../img/icon/retina/rss.png);}
+#social_rss span{ background-image:url(../img/icon/retina/rss.png);}
+#social_skype{ background-image:url(../img/icon/retina/skype.png);}
+#social_skype span{ background-image:url(../img/icon/retina/skype.png);}
+#social_vimeo{ background-image:url(../img/icon/retina/vimeo.png);}
+#social_vimeo span{ background-image:url(../img/icon/retina/vimeo.png);}
+#social_youtube{ background-image:url(../img/icon/retina/youtube.png);}
+#social_youtube span{ background-image:url(../img/icon/retina/youtube.png);}
+#social_trumblr{ background-image:url(../img/icon/retina/trumblr.png);}
+#social_trumblr span{ background-image:url(../img/icon/retina/trumblr.png);}
+#social_google_plus{ background-image:url(../img/icon/retina/google_plus.png);}
+#social_google_plus span{ background-image:url(../img/icon/retina/google_plus.png);}
+#top_search{ background-image:url(../img/icon/retina/search.png);}
+#top_search span{ background-image:url(../img/icon/retina/search.png);}
+/*
+List
+*/
+.back .icozoom,.back .icomore{ background-image: url(../img/image-preview_retina.png);
+-webkit-background-size: 120px 40px;
+-moz-background-size: 120px 40px;
+-o-background-size: 120px 40px;
+-ms-background-size: 120px 40px;
+background-size: 120px 40px;}
+.audio-unit span.audiobutton{ background-image: url(../img/player-retina.png);
+-webkit-background-size: 39px 79px;
+-moz-background-size: 39px 79px;
+-o-background-size: 39px 79px;
+-ms-background-size: 39px 79px;
+background-size: 39px 79px; }
+/*
+Shortcode
+*/
+p.icon.accept{ background-image:url(../img/icon/retina/accept.png);}
+p.icon.arrow_full_down{ background-image:url(../img/icon/retina/arrow_full_down.png);}
+p.icon.arrow_full_right{ background-image:url(../img/icon/retina/arrow_full_right.png);}
+p.icon.arrow_full_up{ background-image:url(../img/icon/retina/arrow_full_up.png);}
+p.icon.calendar{ background-image:url(../img/icon/retina/calendar.png);}
+p.icon.cancel{ background-image:url(../img/icon/retina/cancel.png);}
+p.icon.cd{ background-image:url(../img/icon/retina/cd.png);}
+p.icon.cd_run{ background-image:url(../img/icon/retina/cd_run.png);}
+p.icon.clock{ background-image:url(../img/icon/retina/clock.png);}
+p.icon.computer{ background-image:url(../img/icon/retina/computer.png);}
+p.icon.controls_stop{ background-image:url(../img/icon/retina/controls_stop.png);}
+p.icon.document_music{ background-image:url(../img/icon/retina/document_music.png);}
+p.icon.document_text{ background-image:url(../img/icon/retina/document_text.png);}
+p.icon.document_video{ background-image:url(../img/icon/retina/document_video.png);}
+p.icon.download{ background-image:url(../img/icon/retina/download.png);}
+p.icon.edit{ background-image:url(../img/icon/retina/edit.png);}
+p.icon.group_full{ background-image:url(../img/icon/retina/group_full.png);}
+p.icon.home{ background-image:url(../img/icon/retina/home.png);}
+p.icon.image{ background-image:url(../img/icon/retina/image.png);}
+p.icon.imprint{ background-image:url(../img/icon/retina/imprint.png);}
+p.icon.light{ background-image:url(../img/icon/retina/light.png);}
+p.icon.mail{ background-image:url(../img/icon/retina/mail.png);}
+p.icon.move{ background-image:url(../img/icon/retina/move.png);}
+p.icon.music{ background-image:url(../img/icon/retina/music.png);}
+p.icon.network_sans{ background-image:url(../img/icon/retina/network_sans.png);}
+p.icon.phone_on{ background-image:url(../img/icon/retina/phone_on.png);}
+p.icon.screen_4to3{ background-image:url(../img/icon/retina/screen_4to3.png);}
+p.icon.settings{ background-image:url(../img/icon/retina/settings.png);}
+p.icon.shopping_cart{ background-image:url(../img/retina/icon/shopping_cart.png);}
+p.icon.star{ background-image:url(../img/icon/retina/star.png);}
+p.icon.trash{ background-image:url(../img/icon/retina/trash.png);}
+p.icon.user_full{ background-image:url(../img/icon/retina/user_full.png);}
+p.icon.video{ background-image:url(../img/icon/retina/video.png);}
+
+#backtop{ background-image: url(../img/backtop-retina.png);
+-webkit-background-size: 35px 35px;
+-moz-background-size: 35px 35px
+-o-background-size: 35px 35px
+-ms-background-size: 35px 35px
+background-size: 35px 35px}
