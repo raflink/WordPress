@@ -634,4 +634,44 @@ function CustomEnqueueScripts(){
 
 add_action( 'wp_enqueue_scripts', 'CustomEnqueueScripts' );
 
+add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+function my_mce_buttons_2( $buttons ) {
+    array_unshift( $buttons, 'styleselect' );
+    return $buttons;
+}
+
+add_filter( 'tiny_mce_before_init', 'my_mce_before_init' );
+function my_mce_before_init( $settings ) {
+    $style_formats = array(
+        array(
+        	'title' => 'QUOTE',
+        	'inline' => 'span',
+        	'classes' => 'quote'
+        ),
+        array(
+        	'title' => 'QUESTION',
+        	'inline' => 'span',
+        	'classes' => 'question'
+        )
+    );
+    $settings['style_formats'] = json_encode( $style_formats );
+    return $settings;
+}
+
+add_action( 'admin_init', 'add_my_editor_style' );
+
+function add_my_editor_style() {
+	add_editor_style();
+}
+
+// add category nicenames in body and post class
+function category_id_class($classes) {
+    global $post;
+    foreach((get_the_category($post->ID)) as $category)
+        $classes[] = $category->category_nicename;
+        return $classes;
+}
+add_filter('post_class', 'category_id_class');
+add_filter('body_class', 'category_id_class');
+
 ?>

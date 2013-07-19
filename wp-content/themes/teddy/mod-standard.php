@@ -16,7 +16,8 @@ if($teddy_layout != 'teddy_layout_blog'):
 				<div class="listitem_info span4">
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
-						<div class="listitem_des text_des"><?php the_excerpt();?></div>
+						<div class="listitem_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta visible-desktop">
 							<?php CustomPostShowMeta('gallery');?>
 						</ul>
@@ -31,7 +32,8 @@ if($teddy_layout != 'teddy_layout_blog'):
 				<div id="post-<?php the_ID(); ?>" <?php $classes = array( 'listitem_info', 'fulltext'); post_class( $classes ); ?>>
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
-						<div class="listitem_des text_des"><?php the_excerpt();?></div>
+						<div class="listitem_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta">
 							<?php CustomPostShowMeta('gallery');?>
 						</ul>
@@ -53,7 +55,8 @@ if($teddy_layout != 'teddy_layout_blog'):
 					<span class="date-block"><span class="date-block-big"><?php echo get_the_time('d');?></span><span class="date-block-m"><?php echo get_the_time('M');?></span><span class="date-block-y"><?php echo get_the_time('Y');?></span></span>
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
-						<div class="listitem_des text_des"><?php the_excerpt();?></div>
+						<div class="listitem_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta visible-desktop">
 							<?php CustomPostShowMeta('gallery');?>
 						</ul>
@@ -70,6 +73,7 @@ if($teddy_layout != 'teddy_layout_blog'):
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
 						<div class="listitem_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta">
 							<?php CustomPostShowMeta('gallery');?>
 						</ul>

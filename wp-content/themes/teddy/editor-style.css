@@ -1,0 +1,9 @@
+.quote{
+	color: rgba(0,0,0,0.6);
+	font-weight: bold;
+	font-size: 27px;
+}
+.question{
+	color: rgba(0,0,0,0.7);
+	font-size: 29px;
+}

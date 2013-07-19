@@ -134,7 +134,8 @@ require_once('../../../../wp-load.php');
 		$PostconRgb = of_get_option('post-con-color');
 		$arr = array("rgb" => "rgba", ")" => ""); 
 	?>
-		.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ color:<?php echo of_get_option('post-con-color');?>\9; color:<?php echo strtr($PostconRgb ,$arr);?>,0.5); }
+		<!--.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ color:<?php echo of_get_option('post-con-color');?>\9; color:<?php echo strtr($PostconRgb ,$arr);?>,0.5); }-->
+		.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ color:<?php echo of_get_option('post-con-color');?>\9; color:<?php echo strtr($PostconRgb ,$arr);?>,0.9); }
 		.audio-unit{ border-top:1px solid <?php echo $PostconRgb; ?>\9;border-top:1px solid <?php echo strtr($PostconRgb ,$arr);?>,0.1); }
 		.audio-unit span.audiobutton{ border-right:1px solid <?php echo $PostconRgb; ?>\9;border-right:1px solid <?php echo strtr($PostconRgb ,$arr);?>,0.1);}
 		.audio-unit:last-child{ border-bottom:1px solid <?php echo $PostconRgb; ?>\9; border-bottom:1px solid <?php echo strtr($PostconRgb ,$arr);?>,0.1);}
@@ -342,7 +343,8 @@ require_once('../../../../wp-load.php');
 	
 	$typography = of_get_option('list-full-tit-fontstyle');
 	if( $typography ) { 
-		echo '.fulltext h3.post-title a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';
+		//echo '.fulltext h3.post-title a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';
+		echo '.fulltext h3.post-title a{ font-size: 36px;font-style:'. $typography['style'] . ';}';
 		if	( $typography['style'] == 'bold' ){
 			echo '.fulltext h3.post-title a{ font-weight:bold; }';
 		}
@@ -350,7 +352,8 @@ require_once('../../../../wp-load.php');
 	
 	$typography = of_get_option('list-des-fontstyle');
 	if( $typography ) { 
-		echo '.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
+		//echo '.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
+		echo '.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ font-size: 25px;font-style:'. $typography['style'] . ';}';	
 		if	( $typography['style'] == 'bold' ){
 			echo '.listitem_des,.listitem_des a,.list_item .gallery_meta,.list_item .gallery_meta a{ font-weight:bold; }';
 		}
@@ -359,7 +362,8 @@ require_once('../../../../wp-load.php');
 	/* Content page fonts*/
 	$typography = of_get_option('post-tit-font');
 	if( $typography ) { 
-		echo '#single-wrap h1.content-title{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
+		echo '#single-wrap h1.content-title{ font-size: 36px; font-style:'. $typography['style'] . ';}';	
+		//echo '#single-wrap h1.content-title{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
 		if	( $typography['style'] == 'bold' ){
 			echo '#single-wrap h1.content-title{ font-weight:bold; }';
 		}
@@ -375,7 +379,8 @@ require_once('../../../../wp-load.php');
 	
 	$typography = of_get_option('post-con-font');
 	if( $typography ) { 
-		echo '#single-wrap .entry, .comm-u-wrap, .comm-u-wrap a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
+		echo '#single-wrap .entry, .comm-u-wrap, .comm-u-wrap a{ font-size: 25px; font-style:'. $typography['style'] . ';}';	
+		//echo '#single-wrap .entry, .comm-u-wrap, .comm-u-wrap a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
 		if	( $typography['style'] == 'bold' ){
 			echo '#single-wrap .entry, .comm-u-wrap, .comm-u-wrap a{ font-weight:bold; }';
 		}
@@ -383,7 +388,8 @@ require_once('../../../../wp-load.php');
 	
 	$typography = of_get_option('meta-font');
 	if( $typography ) { 
-		echo '#single-wrap .post_meta, #single-wrap .post_meta a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
+		echo '#single-wrap .post_meta, #single-wrap .post_meta a{ font-size: 25px;font-style:'. $typography['style'] . ';}';	
+		//echo '#single-wrap .post_meta, #single-wrap .post_meta a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';	
 		if	( $typography['style'] == 'bold' ){
 			echo '#single-wrap .post_meta, #single-wrap .post_meta a{ font-weight:bold; }';
 		}
@@ -399,7 +405,7 @@ require_once('../../../../wp-load.php');
 	
 	$typography = of_get_option('sidebar-widget-con-font');
 	if( $typography ) { 
-		echo '#sidebar li.widget-container, #sidebar li.widget-container a{ font-size:'.$typography['size'] .';font-style:'. $typography['style'] . ';}';
+		echo '#sidebar li.widget-container, #sidebar li.widget-container a{ font-size: 20px;font-style:'. $typography['style'] . ';}';
 		if	( $typography['style'] == 'bold' ){
 			echo '#sidebar li.widget-container, #sidebar li.widget-container a{ font-weight:bold; }';
 		}	

@@ -30,6 +30,7 @@ if($teddy_layout == 'teddy_layout_a'):
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
 						<div class="listitem_des text_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des text_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta visible-desktop">
 							<p>ghahahahahaha</p>
 							<?php CustomPostShowMeta('gallery');?>
@@ -66,6 +67,7 @@ if($teddy_layout == 'teddy_layout_a'):
 					<div class="listitem_info_wrap">
 						<h3 class="post-title"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><?php the_title();?></a></h3>
 						<div class="listitem_des text_des"><?php the_excerpt();?></div>
+						<!--<div class="listitem_des text_des"><?php the_content();?></div>-->
 						<ul class="gallery_meta visible-desktop">
 							<?php CustomPostShowMeta('gallery');?>
 						</ul>

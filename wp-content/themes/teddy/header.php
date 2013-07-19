@@ -117,7 +117,7 @@
         <header id="header_wrap" class="clearfix">	
 			<div id="header_inn" class="container">					
 				<div id="headerinn_main" class="">
-                    <?php count($post_row); ?>
+                    <!--<?php count($post_row); ?>
                     <nav id="navi" class="">
 						<?php
 							
@@ -130,7 +130,7 @@
 						
 						?>
                         <!--End #navi_wrap-->
-					</nav>
+					</nav>-->
                    
 					<div id="socialicons" class="hidden-phone">
                     <?php if (of_get_option('search-bar')=='1') { ?>

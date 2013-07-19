@@ -29,6 +29,7 @@
 					
 					<ul class="post_meta">
                         <?php CustomPostShowMeta('post');?>
+                    	<?php the_author_image();?>
 					</ul><!--End .post_meta-->  
 					
                     <?php 
@@ -37,7 +38,6 @@
 					$teddy_post_comment = get_post_meta(get_the_ID(), 'teddy_post_comment', true);
 					
 					?>
-                    
                     <?php if($teddy_post_share == 'true'): ?>
                     
 					<ul class="post_social">

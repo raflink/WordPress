@@ -77,11 +77,11 @@ endif;
 			}
 			$comments_args = array(
 			    'fields'               => apply_filters( 'comment_form_default_fields', $fields ),
-			    'logged_in_as'		   => '<p class="logged">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out&raquo;</a>', 'ux' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
-			    'title_reply'          => __( 'LEAVE A REPLY', 'ux' ),
+			    'logged_in_as'		   => '<p class="logged">' . sprintf( __( 'متصل بالاسم <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account" style="color: rgba(0,0,0,0.9);">تسجيل الخروج&raquo;</a>', 'ux' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
+			    'title_reply'          => __( 'ترك الرد', 'ux' ),
 			    'title_reply_to'       => __( 'Leave a Reply to %s', 'ux' ),
 			    'cancel_reply_link'    => __( 'Cancel reply', 'ux' ),
-			    'label_submit'         => __( 'SEND', 'ux' ),
+			    'label_submit'         => __( 'أرسل', 'ux' ),
 			    'comment_field'		   => '<p><textarea id="comment" name="comment" class="requiredFieldcomm" cols="100%" tabindex="4" aria-required="true"></textarea></p>',
 			    'must_log_in'		   => '<p class="must-log-in">' .  sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.', 'ux' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
                 'comment_notes_after'  =>'',
