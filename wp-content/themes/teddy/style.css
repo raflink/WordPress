@@ -29,7 +29,7 @@ ol, ul { list-style: none;outline:none; }
 ul{ margin-left:0;}
 li{ list-style:none}
 body,input[type="text"],input.wpcf7-form-control,textarea{ font-size:12px;  direction: rtl; unicode-bidi: embed;}
-.container{ max-width:940px; position:relative; float: right;}
+.container{ max-width:940px; position:relative;}
 #wrap{ position:relative;z-index:1;}
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{width:auto; border-radius:0; box-shadow:none;}
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{ box-shadow:none; }
@@ -784,8 +784,8 @@ h3#reply-title,
 h1.content-title,
 #sidebar h3.widget-title{ font-size:25px; color:rgb(0,0,0)\9; color:rgba(0,0,0,0.9); }
 
-/*.entry,.post_meta,.listitem_des,.listitem_des a,.gallery_meta,.gallery_meta a,.gallery_con,.comm-u-wrap,.comm-u-wrap a,.logged,#sidebar li.widget-container,#sidebar li.widget-container a,#sidebar textarea,#sidebar input[type="text"],#sidebar input.wpcf7-form-control{  color:rgb(0,0,0)\9; color:rgba(0,0,0,0.5); font-size: 25px;}*/
-.entry,.post_meta,.listitem_des,.listitem_des a,.gallery_meta,.gallery_meta a,.gallery_con,.comm-u-wrap,.comm-u-wrap a,.logged,#sidebar li.widget-container,#sidebar li.widget-container a,#sidebar textarea,#sidebar input[type="text"],#sidebar input.wpcf7-form-control{  color:rgb(0,0,0)\9; color:rgba(0,0,0,0.9); font-size: 25px; line-height: 1.5}
+/*.entry,.post_meta,.listitem_des,.listitem_des a,.gallery_meta,.gallery_meta a,.gallery_con,.comm-u-wrap,.comm-u-wrap a,.logged,#sidebar li.widget-container,#sidebar li.widget-container a,#sidebar textarea,#sidebar input[type="text"],#sidebar input.wpcf7-form-control{  color:rgb(0,0,0)\9; color:rgba(0,0,0,0.5); font-size: 20px;}*/
+.entry,.post_meta,.listitem_des,.listitem_des a,.gallery_meta,.gallery_meta a,.gallery_con,.comm-u-wrap,.comm-u-wrap a,.logged,#sidebar li.widget-container,#sidebar li.widget-container a,#sidebar textarea,#sidebar input[type="text"],#sidebar input.wpcf7-form-control{  color:rgb(0,0,0)\9; color:rgba(0,0,0,0.9); font-size: 20px; line-height: 1.7;}
 .gallery_meta a:hover,.listitem_des a:hover{ color:rgb(0,0,0)\9; color:rgba(0,0,0,1); }
 .fulltext h3.post-title a,h1.content-title{ font-size:32px; }
 span.date-block{ background-color:#333; color:#FFFFFF; }
@@ -841,7 +841,7 @@ background:#ddd\9; background:rgba(0,0,0,0.03); border:1px solid rgba(0,0,0,0.05
 }
 .entry{
 	color: rgba(0,0,0,0.9);
-	line-height: 1.5;
+	line-height: 1.7;
 }
 
 
